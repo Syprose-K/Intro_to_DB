@@ -1,7 +1,7 @@
 -- CREATE DATABASE
-CREATE DATABASE IF NOT EXISTS ALX_BOOK_STORE; 
+CREATE DATABASE IF NOT EXISTS alx_book_store;
 -- using if not exists ensures if db is created if not found and no error thrown
-USE ALX_BOOK_STORE;
+USE alx_book_store;
 --2nd mention tells mySQL to apply all sql commands to this database without this i will
 --have to prefix every table like.. CREATE TABLE ALX_BOOK_STORE.AUTHORS (...);
 -- AUTHORS TABLE
